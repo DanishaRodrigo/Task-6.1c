@@ -50,6 +50,6 @@ pipeline {
             mail to: "danishavishwani@gmail.com",
                  subject: "Pipeline Failure - Build # ${currentBuild.number}",
                  body: "The pipeline has failed at stage ${currentStage.name}. Build logs are attached."
-        }
+        
     }
 }
